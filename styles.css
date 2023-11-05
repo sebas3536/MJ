@@ -93,3 +93,22 @@ span{
     top: 2rem;
     left: -35rem;
 }
+
+@media screen and (max-width: 600px) {
+    .img1 {
+        top: -14rem;
+        left: -3rem;
+        width: 7rem;
+        height: 7rem;
+    }
+    .img2 {
+        top: -8rem;
+        left: -9rem;
+        width: 7rem;
+        height: 7rem;
+    }
+    .countdown div{
+        position: relative;
+        z-index: 2;
+    }
+}
